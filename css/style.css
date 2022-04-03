@@ -52,6 +52,16 @@
  font-style: normal;
     bottom: 395px;
 }
+.mt-saludo {
+    position: relative;
+    display: block;
+ color: black;
+ font-size:16px;
+ font-style: normal;
+ bottom: 420px;
+ left: -5px;
+    z-index: 22;
+}
 
 .mt-222 {
     position: relative;
@@ -60,6 +70,264 @@
  font-size: 1px !important;
  font-style: normal;
     bottom: 395px;
+}
+
+.tuimagen {
+    z-index: 22;
+    display: block;
+    width: 50px;
+    
+}
+
+.avatar {
+    position: absolute;
+    bottom: 540px;
+    left: 35px;
+    display: block;
+   
+    z-index: 2;
+  }
+
+
+  #mascompradostitulo {
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 17px;
+    font-style: bold;
+   
+    color: black;
+     
+    
+    z-index: 10;
+  }
+
+  #vertodo {
+    position: absolute;
+    top: 190px;
+    left: 280px;
+    font-size: 10px;
+    font-style: bold;
+   
+    color: grey;
+     
+    
+    z-index: 10;
+  }
+  
+  .card {
+    
+      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    max-height: 200px;
+    z-index: 12;
+    border-radius: 5px;
+    color: black;
+    
+    text-align: center;
+  }
+  
+  
+  
+  #wiskey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+ .card-container {
+    grid-template-columns: repeat;
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    z-index: 12;
+    align-items: center;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(auto-fit);
+    justify-content: start;
+    justify-items: center;
+    align-content: stretch;
+}
+
+
+
+#menufondo {
+    position: absolute;
+  top: 530px;
+  left: 0px;
+  max-width: 299px;
+  max-height: 200px;
+  
+    display: block;
+    align-items: center;
+    z-index: 19;
+  
+  
+  }
+  
+  #campana {
+    position: absolute;
+    top: 20px;
+    left: 128px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 7;
+      color: black;
+    
+  }
+  
+  #circulomenu {
+    position: absolute;
+    top: 530px;
+    left: 125px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 19;
+      color: #3599F3;
+  
+  }
+
+  #casitainicio {
+    position: absolute;
+    top: 570px;
+    left: 50px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 20;
+      color: black;
+      position: -webkit-sticky; /* Safari */
+  
+  }
+
+  .menudenavegacion {
+    position: -webkit-sticky;
+	position: sticky;
+	
+    top : 0px;
+    z-index: 20;
+  }
+  
+  #monedacompra {
+    position: absolute;
+  top: 570px;
+  left: 229px;
+    
+    max-width: 100%;
+    display: block;
+    align-items: center;
+    z-index: 20;
+      color: black;
+    position: -webkit-sticky; /* Safari */
+  
+  
+  }
+
+  
+  #escanearqr {
+    position: absolute;
+    top: 542px;
+    left: 138px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 20;
+      color: #ffffff;
+      position: -webkit-sticky; /* Safari */
+  
+  }
+
+  
+    
+  #Buscador {
+    position: absolute;
+    top: 95px;
+    left: 15px;
+    display: block;
+    border-radius: 10px;
+    background: #ebebeb url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 30px;
+    width: 230px;
+    
+    border: transparent;
+    border-bottom: solid 1px #ccc;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    z-index: 10;
+  }
+
+  #slider {
+    position: absolute;
+    top: 110px;
+    left: 135px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 22;
+      color: white;
+  
+  }
+  #cuadroslider {
+    position: absolute;
+    top: 100px;
+    left: 135px;
+      
+      max-width: 100%;
+      display: block;
+      align-items: center;
+      z-index: 6;
+      color: #3599F3;
+  
+  }
+  
+  
+
+#menuetiquetas {
+    list-style-type: none;
+    display: inline-block;
+    
+    z-index: 3;
+    position: absolute;
+    top: 150px;
+    left: 8px;
+    font-size: 12px;
+   
+    color: #7A869A;
+  }
+
+  #elemntosetiquetas {
+    display: inline;
+    margin: 10px;
+    color: grey
+  
+  
+  }
+
+.mt-cta1 {
+    position: relative;
+    display: block;
+ color: black;
+ font-size:16px;
+ font-style: normal;
+ bottom: 415px;
+ left: 20px;
+    z-index: 22;
+
+
 }
 
 
