@@ -67,10 +67,13 @@
 	}
 	.main_slider_content
 	{
+		background-size: cover;
+	background-position: center center;
 		width: 80%;
 	}
 	.banner_item
 	{
+		
 		height: 220px;
 	}
 	.product-item
@@ -144,6 +147,8 @@
 	}
 	.main_slider
 	{
+		background-size: cover;
+	background-position: center center;
 		margin-top: 100px;
 	}
 	.main_slider_content
@@ -491,6 +496,8 @@
 	}
 	.main_slider
 	{
+		background-size: cover;
+	background-position: center center;
 		height: calc(100vh - 70px);
 		/*height: 80vw;*/
 		min-height: auto;
